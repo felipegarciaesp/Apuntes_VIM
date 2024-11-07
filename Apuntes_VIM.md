@@ -37,3 +37,21 @@ Si quieres abrir un archivo en vim (por ejemplo, index.js) debes hacer lo siguie
 ```
 vim index.js
 ```
+
+# Moviendo el cursor y entre palabras
+
+Con las siguientes teclas nos movemos en vim:
+
+```
+h: izquierda
+l:derecha
+k: arriba
+j: abajo
+```
+
+Para moverse más rápido, ocupa las siguientes teclas:, ocupa la tecla "w". Esta llevará el cursor al comienzo del objeto de texto siguiente.
+
+```
+w: lleva el cursor al comienzo del siguiente objeto de texto.
+b:lleva el cursos al comienzo del anterior objeto de texto.
+```
