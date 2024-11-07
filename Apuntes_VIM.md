@@ -28,4 +28,12 @@ Eso es porque no hemos guardado los cambios. Ssi aún así quieres cerrar el arc
 
 # Los modos
 
-vim y neovim trabajan con modos. Los modos pensémoslos como capas que están encima del teclado.
+vim y neovim trabajan con modos. Los modos pensémoslos como capas en nuestro teclado. Las teclas en nuestro teclado muestran cosas distintas si tenemos apretados la techa shift o no, a eso se refieren los modos.
+
+# Abrir un archivo en vim
+
+Si quieres abrir un archivo en vim (por ejemplo, index.js) debes hacer lo siguiente en bash:
+
+```
+vim index.js
+```
