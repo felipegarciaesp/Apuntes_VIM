@@ -49,9 +49,13 @@ k: arriba
 j: abajo
 ```
 
-Para moverse más rápido, ocupa las siguientes teclas:, ocupa la tecla "w". Esta llevará el cursor al comienzo del objeto de texto siguiente.
+Para moverse más rápido, ocupa las siguientes teclas:
 
 ```
 w: lleva el cursor al comienzo del siguiente objeto de texto.
 b:lleva el cursos al comienzo del anterior objeto de texto.
+e: lleva el cursos al final del siguiente objeto de texto.
 ```
+
+# Insertar texto y agregarlo al final
+
