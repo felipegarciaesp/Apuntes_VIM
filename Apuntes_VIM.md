@@ -25,3 +25,7 @@ Eso es porque no hemos guardado los cambios. Ssi aún así quieres cerrar el arc
 ```
 :q!
 ```
+
+# Los modos
+
+vim y neovim trabajan con modos. Los modos pensémoslos como capas que están encima del teclado.
