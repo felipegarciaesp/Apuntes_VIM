@@ -59,3 +59,36 @@ e: lleva el cursos al final del siguiente objeto de texto.
 
 # Insertar texto y agregarlo al final
 
+Para insertar texto se debe teclear primero la letra "i" para dejar el curso como una barra vertical. Hecho esto, agregamos el texto. 
+
+Una vez agregado lo que queremos agregar, presionamos la tecla "Esc" dos veces para salir del modo INSERTAR. Si lo apretas una vez, deja pasar un tiempo antes de cambiar de modo. 
+
+Para ingresar al modo INSERTAR también podemos apretar la tecla "a". Esto para que deje el cursor justo depsués de la tecla donde se encontraba posicionado el cursor.
+
+Si apreto "A" (a mayúscula, es decir shift + a), me va a dejar el cursor al final de la línea en el modo de INSERTAR.
+
+# Eliminar texto
+
+En el modo normal posicionate en el caracter que quieres eliminar. Luego apretas la tecla "x" y vas eliminando los caracteres que tienes por delante.
+
+# Guardar los cambios
+
+Lo primero es asegurarse de que estás en el modo normal. Luego tecleas lo siguiente:
+
+```
+:w
+```
+
+Luego de apretar ENTER te debiese aparecer un mensaje de que tu archivo fue guardado con éxito. En el caso del ejemplo que estamos trabajando a mí me ha aparecido lo siguiente:
+
+```
+"index.js" [unix] 27L, 646B written
+```
+
+Otra forma es teclar lo siguiente:
+
+```
+:wq
+```
+
+De esta última forma se guardará y se cerrará el archivo.
