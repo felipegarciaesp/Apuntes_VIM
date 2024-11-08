@@ -1,4 +1,5 @@
-// funcion de suma total
+const { ayuda } = require('./helper.js')
+
 const suma = (ns) => {
   let acumulado = 0;
   for (i = 0; i < ns.length; i++) {

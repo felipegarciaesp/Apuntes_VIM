@@ -92,3 +92,7 @@ Otra forma es teclar lo siguiente:
 ```
 
 De esta última forma se guardará y se cerrará el archivo.
+
+# Moverse entre archivos
+
+Vamos a aprender a movernos entre archivos dentro del mismo editor.
