@@ -96,3 +96,20 @@ De esta última forma se guardará y se cerrará el archivo.
 # Moverse entre archivos
 
 Vamos a aprender a movernos entre archivos dentro del mismo editor.
+
+Si en alguna parte del editor tienes una función, puedes ponerte sobre esta función y teclar "gd" para ir a su definición.
+
+Si haces esto mismo para otro archivo que se está llamando, lo que tienes que hacer es utilizar "gf" en vez de "gd".
+
+Estando en el otro archivo puedes devolverte en el historial presionando "Ctrl + O". Es importante que el cursor se encuentre por sobre el nombre de la función. Si tienes dudas, puedes consultar el video de la clase en el siguiente link: https://www.udemy.com/course/vim-aumenta-tu-velocidad-de-desarrollo/learn/lecture/15495844#overview
+
+Si quieres ir hacia adelante en el historial, presiona "Ctrl + i"
+
+En resumen:
+
+```
+gd -> para ir a la definición de una función dentro del código.
+gf -> para ir a la definición de un código que se está requiriendo.
+Ctrl + o -> para devolverme en el historial.
+Ctrl + i -> para ir hacia adelante en el historial. 
+```

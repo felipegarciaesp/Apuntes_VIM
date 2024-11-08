@@ -6,7 +6,7 @@ const suma = (ns) => {
  
     acumulado += ns[i];
   }
-
+  ayuda()
   return acumulado;
 } 
 
