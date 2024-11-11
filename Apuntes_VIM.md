@@ -53,8 +53,8 @@ Para moverse más rápido, ocupa las siguientes teclas:
 
 ```
 w: lleva el cursor al comienzo del siguiente objeto de texto.
-b:lleva el cursos al comienzo del anterior objeto de texto.
-e: lleva el cursos al final del siguiente objeto de texto.
+b:lleva el cursor al comienzo del anterior objeto de texto.
+e: lleva el cursor al final del siguiente objeto de texto.
 ```
 
 # Insertar texto y agregarlo al final
@@ -120,4 +120,13 @@ Ctrl + i -> para ir hacia adelante en el historial.
 dw -> Va borrando las palabras que están por delante del cursor. Hay que estar en el modo normal.
 u -> Corresponde a la tecla deshacer. A medida que la vamos presionando, vamos a recuperar lo eliminado (simil a Ctrl + Z)
 Ctrl + r -> Va rehaciendo los cambios hechos. En otras palabras, va a rehacer los cambios que habíamos eliminado con la tecla "u".
+d$ -> Va a eliminar desde la posición del cursor hasta el final de la línea sin eliminar la linea.
 ```
+
+# Operadores y movimientos
+
+Vamos a aprender a combinar operadores con movimientos
+
+Puedes combinar la tecla "d" junto con los operadores de movimeinto (e, w, b) para eliminar texto de distintas maneras.
+
+También podemos utilizar números. Por ejemplo, puedes teclar "d3w" para borrar los 3 caracteres que se encuentran por delante de la posición del cursor.
