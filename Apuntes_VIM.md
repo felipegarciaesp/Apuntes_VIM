@@ -129,4 +129,9 @@ Vamos a aprender a combinar operadores con movimientos
 
 Puedes combinar la tecla "d" junto con los operadores de movimeinto (e, w, b) para eliminar texto de distintas maneras.
 
-También podemos utilizar números. Por ejemplo, puedes teclar "d3w" para borrar los 3 caracteres que se encuentran por delante de la posición del cursor.
+También podemos utilizar números. Por ejemplo, puedes teclar "d3w" para borrar los 3 caracteres que se encuentran por delante de la posición del cursor. Esto es equivalente a teclar "dw" 3 veces.
+
+Puedes ocupar la misma lógica si solamente te quieres mover por el código. Por ejemplo, teclear "3w" va a ser lo mismo que teclear 3 veces w.
+
+Estas combinaciones las puedes ocupar con todas las teclas de movimiento.
+
