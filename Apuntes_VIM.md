@@ -113,3 +113,11 @@ gf -> para ir a la definición de un código que se está requiriendo.
 Ctrl + o -> para devolverme en el historial.
 Ctrl + i -> para ir hacia adelante en el historial. 
 ```
+
+# Comandos para eliminar: un-do y re-do
+
+```
+dw -> Va borrando las palabras que están por delante del cursor. Hay que estar en el modo normal.
+u -> Corresponde a la tecla deshacer. A medida que la vamos presionando, vamos a recuperar lo eliminado (simil a Ctrl + Z)
+Ctrl + r -> Va rehaciendo los cambios hechos. En otras palabras, va a rehacer los cambios que habíamos eliminado con la tecla "u".
+```
