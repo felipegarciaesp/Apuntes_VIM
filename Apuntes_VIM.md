@@ -135,3 +135,18 @@ Puedes ocupar la misma lógica si solamente te quieres mover por el código. Por
 
 Estas combinaciones las puedes ocupar con todas las teclas de movimiento.
 
+# Eliminando lineas, pegar y reordenar listas.
+
+Vamos a aprender a eliminar y a mantener lo eliminado dentro del clipboard (clipboard: lo que mantiene lo que va a ser pegado en otro momento o programa).
+
+Si te posicionas al principio de una línea y aprietas la tecla "d" dos veces (es decir, "dd"), borrarás toda la línea.
+
+Para pegar lo que acabas de eliminar, debes apretas la tecla "p". Esto va a pegar el texto en la línea siguiente en la que se encuentra el cursor.
+
+Si tecleas "P" (p mayúscula), vas a pegar lo eliminado en la linea que se encuentra por sobre la linea donde se encuentra el cursor.
+
+En vim no existe el eliminar, solamente existe el cortar.
+
+Si con la tecla "x" empiezas a eliminar caracteres, al momento de volver a pegar lo eliminado vas a recuperar solamente el último caracter eliminado.
+
+Esta forma de copiar y pegar lineas es la forma más rápida para reordenar lineas.
