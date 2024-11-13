@@ -1,10 +1,11 @@
-# Instalación de vim o neovim
+# Sección 1: Introducción
+## Instalación de vim o neovim
 
 Link de descarga de vim: https://www.vim.org/download.php
 
 neovim pretende ser más extensible que vim, pero los dos funcinan exactamente igual. neovim es un fork de vim. Los dos editores son bastante livianos, da igual cual instales la verdad.
 
-# Salir de vim o neovim
+## Salir de vim o neovim
 
 Para entrar a vim basta con teclear "vim" en bash.
 
@@ -26,7 +27,7 @@ Eso es porque no hemos guardado los cambios. Ssi aún así quieres cerrar el arc
 :q!
 ```
 
-# Los modos
+## Los modos
 
 vim y neovim trabajan con modos. Los modos pensémoslos como capas en nuestro teclado. Las teclas en nuestro teclado muestran cosas distintas si tenemos apretados la techa shift o no, a eso se refieren los modos.
 
@@ -38,7 +39,8 @@ Si quieres abrir un archivo en vim (por ejemplo, index.js) debes hacer lo siguie
 vim index.js
 ```
 
-# Moviendo el cursor y entre palabras
+# Sección 2: Lección 1
+## Moviendo el cursor y entre palabras
 
 Con las siguientes teclas nos movemos en vim:
 
@@ -57,7 +59,7 @@ b:lleva el cursor al comienzo del anterior objeto de texto.
 e: lleva el cursor al final del siguiente objeto de texto.
 ```
 
-# Insertar texto y agregarlo al final
+## Insertar texto y agregarlo al final
 
 Para insertar texto se debe teclear primero la letra "i" para dejar el curso como una barra vertical. Hecho esto, agregamos el texto. 
 
@@ -67,11 +69,11 @@ Para ingresar al modo INSERTAR también podemos apretar la tecla "a". Esto para 
 
 Si apreto "A" (a mayúscula, es decir shift + a), me va a dejar el cursor al final de la línea en el modo de INSERTAR.
 
-# Eliminar texto
+## Eliminar texto
 
 En el modo normal posicionate en el caracter que quieres eliminar. Luego apretas la tecla "x" y vas eliminando los caracteres que tienes por delante.
 
-# Guardar los cambios
+## Guardar los cambios
 
 Lo primero es asegurarse de que estás en el modo normal. Luego tecleas lo siguiente:
 
@@ -93,7 +95,7 @@ Otra forma es teclar lo siguiente:
 
 De esta última forma se guardará y se cerrará el archivo.
 
-# Moverse entre archivos
+## Moverse entre archivos
 
 Vamos a aprender a movernos entre archivos dentro del mismo editor.
 
@@ -114,7 +116,8 @@ Ctrl + o -> para devolverme en el historial.
 Ctrl + i -> para ir hacia adelante en el historial. 
 ```
 
-# Comandos para eliminar: un-do y re-do
+# Sección 3: Comandos y pegar
+## Comandos para eliminar: un-do y re-do
 
 ```
 dw -> Va borrando las palabras que están por delante del cursor. Hay que estar en el modo normal.
@@ -123,7 +126,7 @@ Ctrl + r -> Va rehaciendo los cambios hechos. En otras palabras, va a rehacer lo
 d$ -> Va a eliminar desde la posición del cursor hasta el final de la línea sin eliminar la linea.
 ```
 
-# Operadores y movimientos
+## Operadores y movimientos
 
 Vamos a aprender a combinar operadores con movimientos
 
@@ -135,7 +138,7 @@ Puedes ocupar la misma lógica si solamente te quieres mover por el código. Por
 
 Estas combinaciones las puedes ocupar con todas las teclas de movimiento.
 
-# Eliminando lineas, pegar y reordenar listas.
+## Eliminando lineas, pegar y reordenar listas.
 
 Vamos a aprender a eliminar y a mantener lo eliminado dentro del clipboard (clipboard: lo que mantiene lo que va a ser pegado en otro momento o programa).
 
@@ -150,3 +153,23 @@ En vim no existe el eliminar, solamente existe el cortar.
 Si con la tecla "x" empiezas a eliminar caracteres, al momento de volver a pegar lo eliminado vas a recuperar solamente el último caracter eliminado.
 
 Esta forma de copiar y pegar lineas es la forma más rápida para reordenar lineas.
+
+```
+También se puede eliminar con números: 2dd, 8dd, etc.
+```
+
+# Sección 4: Reemplazar y cambiar
+
+## Operador de cambio
+
+Comando para reemplazar un caracter: te posicionas sobre el caracter que quieres cambiar debes presionar "r" seguido del caracter que quieres poner.
+
+Operador de cambio: si quieres cambiar una cadena de texto, posiciona el curso al inicio de esta cadena y teclea "cw". La cadena se eliminará por completo y podrás reemplazarla por otra cadena. El comando "cw" va a eliminar todo lo que tengas por delante del cursor en una cadena de texto. Con el comando "ciw" vas a poder borrar toda una cadena de texto independiente de la posición del cursor en esta cadena.
+
+Resumen:
+
+```
+r -> Borra el caracter que quieres eliminar. Debes posicionar el cursor a la izquierda del caracter (o sobre este, dependiendo de como se vea tu cursor).
+cw -> Borra toda la cadena de texto que haya por delante del cursor. Si posicionas el cursor al inicio de la cadena, borras toda la cadena. Si pones el cursor en la mitad, borrarás la mitad.
+ciw -> Vas a poder borrar toda la cadena de texto independiente de la posición del cursor en esta cadena.
+```
